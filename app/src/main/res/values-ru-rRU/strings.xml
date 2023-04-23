@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Screen-ТВ</string>
+    <string name="wifi_disconnected">Wifi отключен</string>
+    <string name="wifi_connected">Wifi подключен</string>
+    <string name="your_device_and_tv_must_be_connected_to_the_same_wi_fi_network">Ваше устройство и ТВ должны быть подключены к одной Wi-Fi сети.</string>
+    <string name="connected">Подключен</string>
+    <string name="disconnected">Отключен</string>
+    <string name="open_cast_settings">Открыть настройки</string>
+    <string name="for_start_or_stop_screen_casting_mirroring_open_settings">Для начала или остановки сриминга откройте настройки и выберите там ваш ТВ</string>
+    <string name="screen_castings_mirroring">Зеркальный экран</string>
+</resources>

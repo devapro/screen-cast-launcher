@@ -11,6 +11,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.mediarouter.media.MediaRouter
 import pro.devapp.cast.component.MediaRouterWatcher
 import pro.devapp.cast.component.NetworkWatcher
@@ -50,7 +51,7 @@ class MainActivity : ComponentActivity() {
             TVCastTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = Color.Transparent
                 ) {
                     val screenState by viewModel.uiState.collectAsState()
                     Content(

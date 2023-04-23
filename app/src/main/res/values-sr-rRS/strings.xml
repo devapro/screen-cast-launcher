@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Screen-ТВ-Cast</string>
+    <string name="wifi_disconnected">Wifi је дисцоннецтед</string>
+    <string name="wifi_connected">Wifi повезан</string>
+    <string name="your_device_and_tv_must_be_connected_to_the_same_wi_fi_network">Ваш уређај и ТВ морају бити повезани на исту Wifi мрежу.</string>
+    <string name="connected">Повезан</string>
+    <string name="disconnected">Дисцоннецтед</string>
+    <string name="open_cast_settings">Отворите подешавања</string>
+    <string name="for_start_or_stop_screen_casting_mirroring_open_settings">Да бисте покренули или зауставили пребацивање/пресликавање екрана, отворите подешавања</string>
+    <string name="screen_castings_mirroring">Преливање екрана / огледало</string>
+</resources>

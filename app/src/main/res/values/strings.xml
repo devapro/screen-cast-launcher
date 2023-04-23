@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">TV-Cast</string>
+    <string name="app_name">Screen-TV-Cast</string>
+    <string name="wifi_disconnected">Wifi disconnected</string>
+    <string name="wifi_connected">Wifi connected</string>
+    <string name="your_device_and_tv_must_be_connected_to_the_same_wi_fi_network">Your device and TV must be connected to the same Wi-Fi network.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="open_cast_settings">Open cast settings</string>
+    <string name="for_start_or_stop_screen_casting_mirroring_open_settings">For start or stop screen casting/mirroring, open settings</string>
+    <string name="screen_castings_mirroring">Screen casting/mirroring</string>
 </resources>

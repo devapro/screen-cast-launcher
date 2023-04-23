@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Screen-TV-Cast</string>
+    <string name="wifi_disconnected">Wi-Fi відключено</string>
+    <string name="wifi_connected">Wi-Fi підключено</string>
+    <string name="your_device_and_tv_must_be_connected_to_the_same_wi_fi_network">Ваш пристрій і телевізор мають бути підключені до однієї мережі Wi-Fi.</string>
+    <string name="connected">Підключено</string>
+    <string name="disconnected">Відключено</string>
+    <string name="open_cast_settings">Відкрити налаштування трансляції</string>
+    <string name="for_start_or_stop_screen_casting_mirroring_open_settings">Щоб розпочати або зупинити трансляцію/дзеркалювання екрана, відкрийте налаштування</string>
+    <string name="screen_castings_mirroring">Кастинг/віддзеркалення екрана</string>
+</resources>

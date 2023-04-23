@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Screen-TV-Cast</string>
+    <string name="wifi_disconnected">WLAN getrennt</string>
+    <string name="wifi_connected">WLAN verbunden</string>
+    <string name="your_device_and_tv_must_be_connected_to_the_same_wi_fi_network">Ihr Gerät und Ihr Fernseher müssen mit demselben Wi-Fi-Netzwerk verbunden sein.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="open_cast_settings">Cast-Einstellungen öffnen</string>
+    <string name="for_start_or_stop_screen_casting_mirroring_open_settings">Öffnen Sie die Einstellungen, um das Casting/Spiegeln des Bildschirms zu starten oder zu stoppen</string>
+    <string name="screen_castings_mirroring">Screen casting/mirroring</string>
+</resources>
