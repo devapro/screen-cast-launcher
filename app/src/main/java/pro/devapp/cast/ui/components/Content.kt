@@ -1,6 +1,7 @@
 package pro.devapp.cast.ui.components
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -32,14 +33,31 @@ fun Content(
             color = MaterialTheme.colorScheme.onPrimary
         )
 
+        Spacer(modifier = Modifier.padding(16.dp))
+
         WifiState(isConnected = screenState.hasWifiConnection)
+
+        Spacer(modifier = Modifier.padding(8.dp))
 
         RoutersList(items = screenState.routes)
 
-        Text(text = "For start or stop screen casting/mirroring, open settings")
-        OutlinedButton(onClick = {
-            onOpenSettings()
-        }) {
+        Spacer(modifier = Modifier.padding(8.dp))
+
+        Text(
+            text = "For start or stop screen casting/mirroring, open settings",
+            style = MaterialTheme.typography.bodyMedium,
+            textAlign = TextAlign.Center,
+            color = MaterialTheme.colorScheme.onPrimary
+        )
+
+        Spacer(modifier = Modifier.padding(2.dp))
+
+        OutlinedButton(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = {
+                onOpenSettings()
+            }
+        ) {
             Text(text = "Open cast settings")
         }
     }
